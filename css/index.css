@@ -1,0 +1,76 @@
+.scale-form{
+    display:flex;
+     flex-direction: column;
+     width:400px;
+}
+.sub-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.items{
+    width:65%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    margin-top:20px;
+    align-content: flex-start;
+    text-align:left;
+}
+
+.items .item{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.items .item:hover{
+    background-color: aquamarine;
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+    font-weight:bold;
+    color: red;
+}
+
+.items .item:active{
+    background-color: aqua;
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+    font-weight:bold;
+    color: red;
+}
+
+.cashier-bucket{
+    padding:10px;
+    width: 30%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.cashier-bucket .bucket-item{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: azure;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 10px;;
+}
+
+.cashier-bucket .item-amount{
+    float:right;
+}
